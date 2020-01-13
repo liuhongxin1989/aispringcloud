@@ -1,0 +1,12 @@
+server:
+  port: 8011
+spring:
+  application:
+    name: provider
+eureka:
+  client:
+    service-url:
+      defaultZone: http://39.105.210.162:8761/eureka/
+  instance:
+    prefer-ip-address: true #是否将当前服务的ip注册到eureka
+
